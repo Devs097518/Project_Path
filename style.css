@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgba(216, 121, 57, 0.603);
+    font-family: "Nunito", sans-serif;
+}
+
+#container {
+    background-color: rgba(179, 113, 83, 0.829);
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
+
+#cima {
+    background-color: rgb(128, 179, 94);
+    border-radius: 0 0 70px 70px;
+    padding: 5em;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    border: black 1px solid;
+    margin-bottom: 120px;
+
+    justify-content: space-evenly;
+    /* Alinha o conteúdo horizontalmente */
+    align-items: center;
+    /* Alinha o conteúdo verticalmente */
+    text-align: center;
+    /* Centraliza o texto dentro da caixa */
+}
+
+#titulo {
+    font-size: 4em;
+    bottom: 60px;
+}
+
+#meio {
+    background-color: rgba(233, 226, 226, 0.61);
+    --mask: radial-gradient(30px at 30px 30px, #0000 98%, #000) -30px -30px;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    padding: 5em;
+    margin-bottom: 60px;
+}
+
+#sortidos{
+    display: flex;
+    align-items: center;
+    width: 40em;
+    margin: auto;
+}
+
+#dot{
+    margin: 60px auto;
+}
+
+#Sesquerda{
+    width: 300px; /* Tamanho da imagem, você pode ajustar */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+#Sdireita{
+
+}
+
+#space{
+    width: 300px;
+    height: 300px;
+    background-image: url('steamuserimages-a.akamaihd.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;                  /* Define a posição para usar posicionamento absoluto para o conteúdo */
+    display: flex;                       /* Flexbox para centralizar o conteúdo */
+    justify-content: center;             /* Centraliza horizontalmente */
+    align-items: center;                 /* Centraliza verticalmente */
+    text-align: center;                  /* Centraliza o texto dentro do box */
+    padding: 2em;                        
+    margin:auto;
+    border: black 1px solid;
+    margin-bottom: 120px;
+}
+
+
+#baixo {
+    background-color:  rgb(179, 113, 83);
+    margin-bottom: 0;
+    padding: 5em;
+    border-radius: 70px 70px 0 0  ;
+    border: black 1px solid;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#description{
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1em;
+}
+
+.caixas {
+    width: 50em;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#text_boxes{
+    
+}
