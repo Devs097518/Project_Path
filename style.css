@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+    
 body {
     margin: 0;
     background-color: rgba(216, 121, 57, 0.603);
-    font-family: "Nunito", sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
 #container {
-    background-color: rgba(179, 113, 83, 0.829);
+    background-color: rgba(211, 211, 211, 0.432);
     display: flex;
     width: 90%;
     margin: auto;
@@ -15,18 +15,18 @@ body {
 }
 
 #cima {
-    background-color: rgb(128, 179, 94);
+    background-color: rgb(151, 174, 187);
     border-radius: 0 0 70px 70px;
-    padding: 5em;
-    width: 65%;
-    height: 50px;
+    padding: 0.5em;
+    width: 98%;
+    height: 400;
     display: flex;
-    flex-direction: row;
-    border: black 1px solid;
+    flex-direction: column;
+    border: rgb(19, 19, 19) 2px solid;
     margin-bottom: 120px;
 
-    color: aliceblue;
-    text-shadow: 1px 1px 1px black;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 1px 1px rgb(36, 36, 36);
 
     justify-content: space-evenly;
     /* Alinha o conteúdo horizontalmente */
@@ -36,20 +36,34 @@ body {
     /* Centraliza o texto dentro da caixa */
 }
 
+#plantinhas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#lavanda{
+    width: 70px;
+    height: auto;
+    /* margin-left: 80%; */
+}
+
 #titulo {
-    font-size: 4em;
-    bottom: 60px;
+    font-size: 6em;
 }
 
 #meio {
     background-color: rgba(233, 226, 226, 0.61);
-    --mask: radial-gradient(30px at 30px 30px, #0000 98%, #000) -30px -30px;
+    /* --mask: radial-gradient(30px at 30px 30px, #0000 98%, #000) -30px -30px;
     -webkit-mask: var(--mask);
-    mask: var(--mask);
+    mask: var(--mask); */
+    
     padding: 5em;
     width: 65%;
     margin-bottom: 60px;
 }
+
+
 
 #sortidos{
     display: flex;
@@ -73,29 +87,42 @@ body {
 }
 
 .space{
-    
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    position: relative;                  /* Define a posição para usar posicionamento absoluto para o conteúdo */
-    display: flex;                       /* Flexbox para centralizar o conteúdo */
-    justify-content: center;             /* Centraliza horizontalmente */
-    align-items: center;                 /* Centraliza verticalmente */
-    text-align: center;                  /* Centraliza o texto dentro do box */             
+    height: 300px;   
     margin:auto;
-    border: black 1px solid;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.281);
+    border: rgb(19, 19, 19) 2px solid;
     padding: 1em;
 }
 
+#stuff{
+    display: flex;
+    padding: 0em;
+    align-items: center;
+    text-align: center;  
+}
+
 #primeiro{
-    background-image: url('steamuserimages-a.akamaihd.jpg');
+    background-color: rgb(146, 101, 189);  
 }
 
 #segundo{
-    background-image: url('forest.jpg');
+    background-color: rgb(197, 79, 79);
 }
+
+#rimg{
+    width: 300px;
+    height: 300px;
+}
+
+#ltxt{
+    width: 300px;
+}
+
+#asimagens{
+    width: 300px;
+    height: 300px;
+}
+
+
 
 
 #baixo {
@@ -127,6 +154,7 @@ button{
     color: aliceblue;
     text-shadow: 1px 1px 1px black;
     font-size: 1.2em; 
+    padding: 0 1.5em;
 }
 
 .caixas {
