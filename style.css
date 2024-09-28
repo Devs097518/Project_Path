@@ -2,7 +2,7 @@
     
 body {
     margin: 0;
-    background-color: rgba(216, 121, 57, 0.603);
+    background-color: rgba(199, 144, 107, 0.884);
     font-family: "Pixelify Sans", sans-serif;
 }
 
@@ -15,15 +15,15 @@ body {
 }
 
 #cima {
-    background-color: rgb(151, 174, 187);
-    border-radius: 0 0 70px 70px;
+    background-color: rgba(151, 174, 187, 0.678);
+    border-radius: 70px;
     padding: 0.5em;
-    width: 98%;
+    width: 550px;
     height: 400;
     display: flex;
     flex-direction: column;
-    border: rgb(19, 19, 19) 2px solid;
-    margin-bottom: 120px;
+    border: rgba(19, 19, 19, 0.623) 4px solid;
+    margin: auto;
 
     color: rgb(255, 255, 255);
     text-shadow: 5px 1px 1px rgb(36, 36, 36);
@@ -36,6 +36,13 @@ body {
     /* Centraliza o texto dentro da caixa */
 }
 
+#img_titulo{
+    width: 350px;
+    height: auto;
+    padding: 5em;
+    margin: 0;
+}
+
 #plantinhas{
     display: flex;
     flex-direction: row;
@@ -43,9 +50,20 @@ body {
 }
 
 #lavanda{
-    width: 70px;
+    width: 100px;
     height: auto;
     /* margin-left: 80%; */
+}
+
+#grama{
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
+
+#linhaverde{
+    display: flex;
+    flex-direction: row;
 }
 
 #titulo {
