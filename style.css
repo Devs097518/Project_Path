@@ -6,17 +6,37 @@
 
 body {
     margin: 0;
-    background-color: rgba(199, 144, 107, 0.884);
+    background-color: #727272;
     font-family: "Minecraftia-Regular", sans-serif;
     /* font-family: "Pixelify Sans", sans-serif; */
 }
 
 #container {
-    background-color: rgba(211, 211, 211, 0.432);
+    /* background-color: #b41f1f; */
     display: flex;
-    width: 90%;
     margin: auto;
     flex-direction: column;
+}
+
+#cimala {
+    background-color: rgba(151, 174, 187, 0.678);
+    /* padding: 0.5em; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom: rgb(77, 77, 77) 4px solid;
+    margin: auto;
+    background-image: url(PixeLɑnd.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 1px 1px rgb(36, 36, 36);
+
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
 
 #cima {
@@ -29,6 +49,7 @@ body {
     flex-direction: column;
     border: rgba(19, 19, 19, 0.623) 4px solid;
     margin: auto;
+    background-color: white;
 
     color: rgb(255, 255, 255);
     text-shadow: 5px 1px 1px rgb(36, 36, 36);
@@ -42,7 +63,7 @@ body {
 }
 
 #img_titulo{
-    width: 350px;
+    width: 450px;
     height: auto;
     padding: 5em;
     margin: 0;
@@ -76,13 +97,17 @@ body {
 }
 
 #meio {
-    background-color: rgba(233, 226, 226, 0.61);
+    background-image: url(pagina.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     /* --mask: radial-gradient(30px at 30px 30px, #0000 98%, #000) -30px -30px;
     -webkit-mask: var(--mask);
     mask: var(--mask); */
     
-    padding: 5em;
-    width: 65%;
+    padding: 10em 5em 5em 5em;
+    font-size: 14px;
+    width: 55%;
+    height: 400px;
     margin-bottom: 60px;
 }
 
