@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-    
+@font-face {
+    font-family: 'Minecraftia-Regular';
+         src : url('/fonts/Minecraftia-Regular.woff') format('woff');
+}
+
+
 body {
     margin: 0;
     background-color: rgba(199, 144, 107, 0.884);
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Minecraftia-Regular", sans-serif;
+    /* font-family: "Pixelify Sans", sans-serif; */
 }
 
 #container {
@@ -105,7 +110,8 @@ body {
 }
 
 .space{
-    height: 300px;   
+   
+    
     margin:auto;
     border: rgb(19, 19, 19) 2px solid;
     padding: 1em;
